@@ -1349,6 +1349,12 @@ footer .copyright h6 {
 
 /* --------- Responsive CSS ---------------- */
 
+@media (max-width:1055px) {
+  .join-floating-wrapper.visible{
+    display: none !important;
+  }
+}
+
 @media (min-width:768px) {
   .container {
     max-width: 90%;
